@@ -1,5 +1,5 @@
 {
- "generated": "2026-06-15T17:09:39Z",
+ "generated": "2026-06-17T10:17:44Z",
  "note": "dialWindow is the DIAL PUCK (largest opaque region of THIS combo's dial asset) — wider than the visible hole, extends under the bezel; design scaled to d at (cx,cy) covers it fully, foreground covers overflow. Top-level dialWindow per combo. All canvases 1500x1500. FULL EXPORT from the live test shop via dump_canvas_cdn_links.py (reflects backend option fixes: Bulova Two-tone, Arsenale Black). Demo-only flags (oos) live in the mockup, not here.",
  "combos": [
   {
@@ -108,9 +108,9 @@
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/citizen-tsuyosa-37mm-dial-pink.png?v=1781294724"
    },
    "dialWindow": {
-    "cx": 710,
-    "cy": 644,
-    "d": 596,
+    "cx": 734,
+    "cy": 668,
+    "d": 676,
     "canvas": [
      1500,
      1500
@@ -131,9 +131,9 @@
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/citizen-tsuyosa-40mm-dial-black.png?v=1781284281"
    },
    "dialWindow": {
-    "cx": 710,
-    "cy": 644,
-    "d": 596,
+    "cx": 734,
+    "cy": 670,
+    "d": 668,
     "canvas": [
      1500,
      1500
@@ -154,9 +154,9 @@
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/citizen-tsuyosa-40mm-dial-blue.png?v=1781284286"
    },
    "dialWindow": {
-    "cx": 710,
-    "cy": 644,
-    "d": 596,
+    "cx": 734,
+    "cy": 670,
+    "d": 668,
     "canvas": [
      1500,
      1500
@@ -177,9 +177,9 @@
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/citizen-tsuyosa-40mm-dial-green.png?v=1781284248"
    },
    "dialWindow": {
-    "cx": 710,
-    "cy": 644,
-    "d": 596,
+    "cx": 734,
+    "cy": 670,
+    "d": 668,
     "canvas": [
      1500,
      1500
@@ -200,9 +200,9 @@
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/citizen-tsuyosa-40mm-dial-orange.png?v=1781284265"
    },
    "dialWindow": {
-    "cx": 710,
-    "cy": 644,
-    "d": 596,
+    "cx": 736,
+    "cy": 668,
+    "d": 672,
     "canvas": [
      1500,
      1500
@@ -223,9 +223,9 @@
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/citizen-tsuyosa-40mm-dial-red-rose-gold.png?v=1781284949"
    },
    "dialWindow": {
-    "cx": 710,
-    "cy": 646,
-    "d": 596,
+    "cx": 734,
+    "cy": 668,
+    "d": 680,
     "canvas": [
      1500,
      1500
@@ -246,9 +246,9 @@
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/citizen-tsuyosa-40mm-dial-yellow.png?v=1781284270"
    },
    "dialWindow": {
-    "cx": 710,
-    "cy": 644,
-    "d": 596,
+    "cx": 736,
+    "cy": 668,
+    "d": 672,
     "canvas": [
      1500,
      1500
