@@ -1,0 +1,15 @@
+{
+ "note": "product → dial shape, generated from v3-light watches by tools/gen_dial_shapes.py",
+ "shapes": {
+  "Oris Divers Sixty-Five": "round",
+  "Doxa SUB 300": "round",
+  "Citizen Tsuyosa": "round",
+  "IFL Watches Canvax": "round",
+  "Venezianico Redentore": "round",
+  "Seiko 5 Sports GMT": "round",
+  "Venezianico Arsenale": "round",
+  "Bulova Super Seville": "square",
+  "Maen Manhattan": "square",
+  "Festina On the Square": "square"
+ }
+}
