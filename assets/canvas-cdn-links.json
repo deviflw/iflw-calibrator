@@ -1,14 +1,17 @@
 {
- "generated": "2026-06-17T10:17:44Z",
- "note": "dialWindow is the DIAL PUCK (largest opaque region of THIS combo's dial asset) — wider than the visible hole, extends under the bezel; design scaled to d at (cx,cy) covers it fully, foreground covers overflow. Top-level dialWindow per combo. All canvases 1500x1500. FULL EXPORT from the live test shop via dump_canvas_cdn_links.py (reflects backend option fixes: Bulova Two-tone, Arsenale Black). Demo-only flags (oos) live in the mockup, not here.",
+ "generated": "2026-06-18T12:03:01Z",
+ "note": "dialWindow is the DIAL PUCK (largest opaque region of THIS combo's dial asset) — wider than the visible hole, extends under the bezel; design scaled to d at (cx,cy) covers it fully, foreground covers overflow. Top-level dialWindow per combo. dialShape = the watch's specs.dial_shape metaobject handle (round/square) — authoritative shape, replaces the local dial-shapes.json heuristic. brand = Shopify vendor; model = specs.model metaobject name (use these, NOT the title's first word — multi-word brands like 'IFL Watches' break a title split). All canvases 1500x1500. FULL EXPORT from the live test shop via dump_canvas_cdn_links.py (reflects backend option fixes: Bulova Two-tone, Arsenale Black). Demo-only flags (oos) live in the mockup, not here.",
  "combos": [
   {
    "product": "Bulova Super Seville",
    "productHandle": "bulova-super-seville",
+   "brand": "Bulova",
+   "model": "Super Seville",
    "variant": "38mm / Blue / Silver",
    "variantId": "48657251631361",
    "sku": "OG-BLV-SSV-38-DBL-SLV",
    "reference": "96B440",
+   "dialShape": "square",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/bulova-super-seville-38mm-foreground-silver.png?v=1781302306"
    },
@@ -28,10 +31,13 @@
   {
    "product": "Bulova Super Seville",
    "productHandle": "bulova-super-seville",
+   "brand": "Bulova",
+   "model": "Super Seville",
    "variant": "38mm / Blue / Two-tone",
    "variantId": "48657251696897",
    "sku": "OG-BLV-SSV-38-DBL-TT",
    "reference": "98B462",
+   "dialShape": "square",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/bulova-super-seville-38mm-foreground-two-tone.png?v=1781302313"
    },
@@ -51,10 +57,13 @@
   {
    "product": "Bulova Super Seville",
    "productHandle": "bulova-super-seville",
+   "brand": "Bulova",
+   "model": "Super Seville",
    "variant": "38mm / Green / Silver",
    "variantId": "48657251598593",
    "sku": "OG-BLV-SSV-38-GRN-SLV",
    "reference": "96B439",
+   "dialShape": "square",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/bulova-super-seville-38mm-foreground-silver.png?v=1781302306"
    },
@@ -74,10 +83,13 @@
   {
    "product": "Bulova Super Seville",
    "productHandle": "bulova-super-seville",
+   "brand": "Bulova",
+   "model": "Super Seville",
    "variant": "38mm / Silver / Gold",
    "variantId": "48657251664129",
    "sku": "OG-BLV-SSV-38-SLV-GLD",
    "reference": "97B223",
+   "dialShape": "square",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/bulova-super-seville-38mm-foreground-gold.png?v=1781302298"
    },
@@ -97,10 +109,13 @@
   {
    "product": "Citizen Tsuyosa",
    "productHandle": "citizen-tsuyosa",
+   "brand": "Citizen",
+   "model": "Tsuyosa",
    "variant": "37mm / Pink / Silver",
    "variantId": "48657260183809",
    "sku": "OG-CTN-TSU-37-PNK-SLV",
    "reference": "NJ0200-50Z",
+   "dialShape": "round",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/citizen-tsuyosa-37mm-foreground-silver-logo-dark.png?v=1781294727"
    },
@@ -120,10 +135,13 @@
   {
    "product": "Citizen Tsuyosa",
    "productHandle": "citizen-tsuyosa",
+   "brand": "Citizen",
+   "model": "Tsuyosa",
    "variant": "40mm / Black / Silver",
    "variantId": "48657259987201",
    "sku": "OG-CTN-TSU-40-BLK-SLV",
    "reference": "NJ0150-81E",
+   "dialShape": "round",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/citizen-tsuyosa-40mm-foreground-silver-logo-light.png?v=1781284275"
    },
@@ -143,10 +161,13 @@
   {
    "product": "Citizen Tsuyosa",
    "productHandle": "citizen-tsuyosa",
+   "brand": "Citizen",
+   "model": "Tsuyosa",
    "variant": "40mm / Blue / Silver",
    "variantId": "48657260019969",
    "sku": "OG-CTN-TSU-40-DBL-SLV",
    "reference": "NJ0150-81L",
+   "dialShape": "round",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/citizen-tsuyosa-40mm-foreground-silver-logo-light.png?v=1781284275"
    },
@@ -166,10 +187,13 @@
   {
    "product": "Citizen Tsuyosa",
    "productHandle": "citizen-tsuyosa",
+   "brand": "Citizen",
+   "model": "Tsuyosa",
    "variant": "40mm / Green / Gold",
    "variantId": "48657260052737",
    "sku": "OG-CTN-TSU-40-GRN-GLD",
    "reference": "NJ0152-51X",
+   "dialShape": "round",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/citizen-tsuyosa-40mm-foreground-gold-logo-light.png?v=1781284242"
    },
@@ -189,10 +213,13 @@
   {
    "product": "Citizen Tsuyosa",
    "productHandle": "citizen-tsuyosa",
+   "brand": "Citizen",
+   "model": "Tsuyosa",
    "variant": "40mm / Orange / Silver",
    "variantId": "48657260151041",
    "sku": "OG-CTN-TSU-40-ORG-SLV",
    "reference": "NJ0159-86Z",
+   "dialShape": "round",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/citizen-tsuyosa-40mm-foreground-silver-logo-dark.png?v=1781284259"
    },
@@ -212,10 +239,13 @@
   {
    "product": "Citizen Tsuyosa",
    "productHandle": "citizen-tsuyosa",
+   "brand": "Citizen",
+   "model": "Tsuyosa",
    "variant": "40mm / Red / Rose gold",
    "variantId": "48657260085505",
    "sku": "OG-CTN-TSU-40-BRG-GLD",
    "reference": "NJ0153-82X",
+   "dialShape": "round",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/citizen-tsuyosa-40mm-foreground-rose-gold.png?v=1781303315"
    },
@@ -235,10 +265,13 @@
   {
    "product": "Citizen Tsuyosa",
    "productHandle": "citizen-tsuyosa",
+   "brand": "Citizen",
+   "model": "Tsuyosa",
    "variant": "40mm / Yellow / Silver",
    "variantId": "48657259954433",
    "sku": "OG-CTN-TSU-40-YEL-SLV",
    "reference": "NJ0150-56Z",
+   "dialShape": "round",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/citizen-tsuyosa-40mm-foreground-silver-logo-dark.png?v=1781284259"
    },
@@ -258,10 +291,13 @@
   {
    "product": "DOXA SUB",
    "productHandle": "doxa-sub",
+   "brand": "DOXA",
+   "model": "SUB 200 Aquamarine",
    "variant": "42mm / Turquoise / Silver",
    "variantId": "48657260740865",
    "sku": "OG-DXA-SUB-42-TQS-SLV",
    "reference": "799.10.241.10",
+   "dialShape": "round",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/doxa-sub-42mm-foreground-silver.png?v=1781479334"
    },
@@ -281,10 +317,13 @@
   {
    "product": "Festina On the Square",
    "productHandle": "festina-on-the-square",
+   "brand": "Festina",
+   "model": "On the Square",
    "variant": "29mm / White / Silver",
    "variantId": "49260722520321",
    "sku": "OG-FST-OTS-29-WHT-SLV",
    "reference": "F20679/1",
+   "dialShape": "square",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/festina-on-the-square-29mm-foreground-silver.png?v=1781542238"
    },
@@ -304,10 +343,13 @@
   {
    "product": "Festina On the Square",
    "productHandle": "festina-on-the-square",
+   "brand": "Festina",
+   "model": "On the Square",
    "variant": "36mm / White / Silver",
    "variantId": "49260722553089",
    "sku": "OG-FST-OTS-36-WHT-SLV",
    "reference": "F20677/1",
+   "dialShape": "square",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/festina-on-the-square-36mm-foreground-silver-v2.png?v=1781543376"
    },
@@ -327,10 +369,13 @@
   {
    "product": "IFL Watches Canvax",
    "productHandle": "ifl-watches-canvax",
+   "brand": "IFL Watches",
+   "model": "Canvax",
    "variant": "40mm / Black / Black",
    "variantId": "48657261494529",
    "sku": "OG-IFL-CVX-40-BLK-BPV",
    "reference": "IFL 0.1",
+   "dialShape": "round",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/ifl-watches-canvax-40mm-foreground-black.png?v=1781307247"
    },
@@ -350,10 +395,13 @@
   {
    "product": "Maen Manhattan",
    "productHandle": "maen-manhattan",
+   "brand": "MAEN",
+   "model": "Manhattan 37",
    "variant": "37mm / Black / Silver",
    "variantId": "49254701334785",
    "sku": "OG-MAE-MAN-37-BLK-SLV",
    "reference": "M2.1.1",
+   "dialShape": "square",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/maen-manhattan-37mm-foreground-silver.png?v=1781284413"
    },
@@ -373,10 +421,13 @@
   {
    "product": "Oris Divers Sixty-Five",
    "productHandle": "oris-divers-sixty-five",
+   "brand": "Oris",
+   "model": "Divers Sixty-Five",
    "variant": "38mm / Blue / Silver",
    "variantId": "48657264017665",
    "sku": "OG-ORS-DVR-38-LBL-SLV",
    "reference": "01 733 7771 4055-07 8 19 18",
+   "dialShape": "round",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/oris-divers-sixty-five-38mm-foreground-silver.png?v=1781200683"
    },
@@ -396,10 +447,13 @@
   {
    "product": "Oris Divers Sixty-Five",
    "productHandle": "oris-divers-sixty-five",
+   "brand": "Oris",
+   "model": "Divers Sixty-Five",
    "variant": "38mm / Pink / Silver",
    "variantId": "48657264083201",
    "sku": "OG-ORS-DVR-38-PNK-SLV",
    "reference": "01 733 7771 4058-07 8 19 18",
+   "dialShape": "round",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/oris-divers-sixty-five-38mm-foreground-silver.png?v=1781200683"
    },
@@ -419,10 +473,13 @@
   {
    "product": "Oris Divers Sixty-Five",
    "productHandle": "oris-divers-sixty-five",
+   "brand": "Oris",
+   "model": "Divers Sixty-Five",
    "variant": "38mm / Turquoise / Silver",
    "variantId": "48657264050433",
    "sku": "OG-ORS-DVR-38-TQS-SLV",
    "reference": "01 733 7771 4057-07 8 19 18",
+   "dialShape": "round",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/oris-divers-sixty-five-38mm-foreground-silver.png?v=1781200683"
    },
@@ -442,10 +499,13 @@
   {
    "product": "Seiko 5 Sports GMT",
    "productHandle": "seiko-5-sports-gmt",
+   "brand": "Seiko",
+   "model": "5 Sports GMT",
    "variant": "42mm / Black / Silver",
    "variantId": "48657264771329",
    "sku": "OG-SKO-5SG-42-BLK-SLV",
    "reference": "SSK001K1",
+   "dialShape": "round",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/seiko-5-sports-gmt-42mm-foreground-silver-black-bezel.png?v=1781284292"
    },
@@ -465,10 +525,13 @@
   {
    "product": "Venezianico Arsenale",
    "productHandle": "venezianico-arsenale",
+   "brand": "Venezianico",
+   "model": "Arsenale Custom",
    "variant": "40mm / Black / Silver",
    "variantId": "48657404985601",
    "sku": "OG-VNZ-ARS-40-BLK-SLV",
    "reference": "6221560C",
+   "dialShape": "round",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/venezianico-arsenale-40mm-foreground-silver.png?v=1781259761"
    },
@@ -488,10 +551,13 @@
   {
    "product": "Venezianico Arsenale",
    "productHandle": "venezianico-arsenale",
+   "brand": "Venezianico",
+   "model": "Arsenale Custom",
    "variant": "40mm / Blue / Silver",
    "variantId": "48657404952833",
    "sku": "OG-VNZ-ARS-40-DBL-SLV",
    "reference": "6221560C",
+   "dialShape": "round",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/venezianico-arsenale-40mm-foreground-silver.png?v=1781259761"
    },
@@ -511,10 +577,13 @@
   {
    "product": "Venezianico Redentore",
    "productHandle": "venezianico-redentore",
+   "brand": "Venezianico",
+   "model": "Redentore Custom",
    "variant": "40mm / Black / Silver",
    "variantId": "49254701269249",
    "sku": "OG-VNZ-RDT-40-BLK-SLV",
    "reference": "1221510C",
+   "dialShape": "round",
    "foreground": {
     "url": "https://cdn.shopify.com/s/files/1/0816/2616/9601/files/venezianico-redentore-40mm-foreground-silver.png?v=1781258420"
    },
